@@ -1,0 +1,13 @@
+.menu-item {
+    display: block;
+    height: 100%;
+    min-width: 150px;
+    padding: 10px 12px;
+    color: var(--black);
+    font-size: 1.4rem;
+
+    &:hover {
+        cursor: pointer;
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
