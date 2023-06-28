@@ -1,0 +1,24 @@
+.wrapper {
+    position: relative;
+}
+
+.cover-img {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    text-align: justify;
+    transform: translateY(-50%);
+    width: 20%;
+
+    h2, p {
+        color: var(--white);
+    }
+}
+
+.content-header {
+    margin-bottom: 10px;
+}

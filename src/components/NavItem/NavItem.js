@@ -10,7 +10,7 @@ const cx = classNames.bind(styles)
 function NavItem({data}) {
     return <div>
         <Tippy
-        offset={[0, 9]}
+        offset={[0, 0]}
         interactive
         render={(attrs) => (
           <div className="box" tabIndex="-1" {...attrs}>

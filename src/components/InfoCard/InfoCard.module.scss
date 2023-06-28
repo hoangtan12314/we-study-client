@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.container {
+    width: 90%;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.title {
+    margin-bottom: 24px;
+}
+
+.narrow-content {
+    width: 60%;
+}
